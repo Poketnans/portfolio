@@ -2,7 +2,7 @@ import { HStack, Center, Link } from "@chakra-ui/react";
 
 const Menu = () => {
   return (
-    <HStack mt="100" color="gold" as="nav" gridGap="4">
+    <HStack mt="100" color="gold" as="nav" gridGap="4" fontSize="20">
       <Center>
         <Link href="/">Home</Link>
       </Center>
